@@ -1,0 +1,85 @@
+header{
+	width: 100%;
+	background-color: lightblue;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
+
+.logo {
+	font-size: 50px;
+	color: darkred;
+	display: inline-block;
+	margin-right: 50px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+li a {
+	color: black;
+	font-size: 20px;
+}
+/*section 1*/
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.mshobeli{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 500px;
+	height: 500px;
+	background-color: yellow;
+	position: relative;
+	border-radius: 30px;
+}
+
+.shvili{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+.black {
+	background-color: black;
+	top: 0px;
+	left: 0px;
+}
+.red {
+	background-color: red;
+	top: 50px;
+	left: 50px;
+	z-index: 2;
+}
+.green {
+	background-color: green;
+	top: 100px;
+	left: 100px;
+}
+.incognito{
+	display: inline-block;
+	position: relative;
+}
+
+.mydiv {
+	width: 150px;
+	height: 150px;
+	background-color: mintcream;
+	position: absolute;
+	font-size: 30px;
+	color: purple;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
